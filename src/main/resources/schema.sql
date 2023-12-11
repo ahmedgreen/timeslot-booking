@@ -1,5 +1,6 @@
 create table TIME_SLOT_INFO(
     SLOT_ID     int auto_increment primary key,
+    SLOT_TITLE  varchar(250) not null,
     START_TIME  timestamp not null,
     END_TIME  timestamp not null,
     TIME_SLOT_STAT varchar(2),

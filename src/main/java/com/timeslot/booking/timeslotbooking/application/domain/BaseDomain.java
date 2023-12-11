@@ -1,6 +1,6 @@
 package com.timeslot.booking.timeslotbooking.application.domain;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;

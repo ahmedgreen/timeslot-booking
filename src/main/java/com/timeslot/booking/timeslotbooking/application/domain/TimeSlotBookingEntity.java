@@ -3,11 +3,9 @@ package com.timeslot.booking.timeslotbooking.application.domain;
 
 import com.timeslot.booking.timeslotbooking.converter.TimeSlotBookingStatusConverter;
 import com.timeslot.booking.timeslotbooking.enums.BookingStatus;
-import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import javax.persistence.*;
+
+import lombok.*;
 
 @Data
 @Builder
@@ -15,6 +13,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "TIME_SLOT_BOOKING_INFO")
+@EqualsAndHashCode(callSuper=false)
 public class TimeSlotBookingEntity extends BaseDomain{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

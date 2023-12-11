@@ -1,8 +1,8 @@
 package com.timeslot.booking.timeslotbooking.converter;
 
 import com.timeslot.booking.timeslotbooking.enums.TimeSlotStatus;
-import jakarta.persistence.AttributeConverter;
-import jakarta.persistence.Converter;
+import javax.persistence.AttributeConverter;
+import javax.persistence.Converter;
 import org.springframework.util.ObjectUtils;
 
 @Converter

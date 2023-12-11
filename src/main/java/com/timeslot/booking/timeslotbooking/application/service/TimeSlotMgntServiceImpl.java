@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 
 @Service
 public class TimeSlotMgntServiceImpl implements TimeSlotMgntService {
-//    @Autowired
+    @Autowired
     TimeSlotRepository repository;
 
     @Override
